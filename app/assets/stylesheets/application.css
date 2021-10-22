@@ -17,3 +17,18 @@
    font-family: 'Damn';
    src: url('../fonts/DAMN.ttf');
 }
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  src: url('../fonts/Gilroy-Regular.ttf');
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 600;
+  src: url('../fonts/Gilroy-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  src: url('../fonts/Gilroy-Bold.ttf');
+}

@@ -3,14 +3,23 @@
   <div class="top_line_row">
     <% 16.times do %> <%= render 'top_line_text' %><% end %>
   </div>
-
 </div>
+
+<div class="first">
+  <div class="pic_cover"><div class="logo"></div></div>
+  <div class="text_cover">
+    <div class="h_1">Найдётся любая вещь</div>
+    <p class="promo_cover_descr">Объединение актуальной информации о концептуальных секондах и площадка
+          для организации  свопов или мероприятий для людей, интересующихся модой. </p>
+    <div class="link_box">
+      <%= link_to 'events', new_event_path %>
+      <%= link_to 'profile', new_event_path %>
+      <%= link_to 'about', new_event_path %>
+      <%= link_to '<footer></footer>', new_event_path %>
+      <a href="#s1"> под</a>
+
+    </div>
+  </div>
+</div>
+<footer></footer>
 <%= link_to 'events', new_event_path %>
-<%= render 'footer' %>
-<div class="container">
-     <div class="row">
-       <!-- <p id="r1">The Portrait of Cardinal Niccolò Albergati is an oil-on-oak-panel painting by the Early Netherlandish painter Jan van Eyck, dating to the 1430s. It is of considerable interest to art historians because van Eyck's preliminary drawing survives.</p> -->
-       <!-- <p id="r2">The Portrait of Cardinal Niccolò Albergati is an oil-on-oak-panel painting by the Early Netherlandish painter Jan van Eyck, dating to the 1430s. It is of considerable interest to art historians because van Eyck's preliminary drawing survives.</p> -->
-       The Portrait of Cardinal Niccolò Albergati is an oil-on-oak-panel painting by the Early Netherlandish painter Jan van Eyck, dating to the 1430s. It is of considerable interest to art historians because van Eyck's preliminary drawing survives.
-     </div>
-   </div>
