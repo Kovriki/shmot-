@@ -15,20 +15,20 @@
  */
  @font-face {
    font-family: 'Damn';
-   src: url('../fonts/DAMN.ttf');
+   src: url('/asset/DAMN.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy' ;
   font-weight: 500;
-  src: url('../fonts/Gilroy-Regular.ttf');
+  src: url('../fonts/Gilroy-Regular.ttf')  format('truetype');
 }
 @font-face {
   font-family: 'Gilroy';
   font-weight: 600;
-  src: url('../fonts/Gilroy-SemiBold.ttf');
+  src: url('../fonts/Gilroy-SemiBold.ttf')  format('truetype');
 }
 @font-face {
   font-family: 'Gilroy';
   font-weight: 700;
-  src: url('../fonts/Gilroy-Bold.ttf');
+  src: url('../fonts/Gilroy-Bold.ttf')  format('truetype');
 }
