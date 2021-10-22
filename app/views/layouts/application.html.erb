@@ -15,6 +15,32 @@
   <body>
     <%= yield %>
   </body>
-    <footer><h1>Footer</h1>
-  </footer>
+
+    <footer>
+        <div class="">
+
+          <h2>Подписывайся на новости</h2>
+          <p>Узнай о запуске сервиса первым!</p>
+          <input type="email" name="" value="" placeholder="Email">
+          <button type="button" name="btn">Подписаться</button>
+        </div>
+
+      <div class="info_block">
+        <p>создатели:</p>
+        <div class="inst_box">
+          <div class="inst_logo">
+
+          </div>
+          <%= link_to 'winteresy', new_event_path %>
+
+        </div>
+        <%= link_to 'g_achivment', new_event_path %>
+
+
+      </div>
+
+
+
+    </footer>
+
 </html>
