@@ -8,18 +8,16 @@
 <div class="first">
   <div class="pic_cover"><div class="logo"></div></div>
   <div class="text_cover">
-    <div class="h_1">Найдётся любая вещь</div>
-    <p class="promo_cover_descr">Объединение актуальной информации о концептуальных секондах и площадка
-          для организации  свопов или мероприятий для людей, интересующихся модой. </p>
+      <div class="h_1">Найдётся любая вещь</div>
+      <p class="promo_cover_descr">Объединение актуальной информации о концептуальных секондах и площадка
+            для организации  свопов или мероприятий для людей, интересующихся модой. </p>
     <div class="link_box">
-      <%= link_to 'events', new_event_path %>
-      <%= link_to 'profile', new_event_path %>
-      <%= link_to 'about', new_event_path %>
-      <%= link_to '<footer></footer>', new_event_path %>
-      <a href="#s1"> под</a>
-
+      <%= link_to 'События', events_index_path %>
+      <%= link_to "Профиль", profile_index_path %>
+      <%= link_to 'О нас', about_index_path%>
+      <%= link_to 'Вступить', new_event_path %>
+      <!-- <a href="#s1"></a> -->
     </div>
   </div>
 </div>
 <footer></footer>
-<%= link_to 'events', new_event_path %>

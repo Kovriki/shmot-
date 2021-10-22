@@ -12,6 +12,8 @@ body{
   display: flex;
   flex-direction: row;
   position: relative;
+  box-sizing: border-box;
+
 
     &.blue{
       background-color: #000AFF;
@@ -31,6 +33,8 @@ body{
   white-space: nowrap;
   margin-right: 30px;
   align-items: center;
+  box-sizing: border-box;
+
 }
 .top_line_row{
   display: flex;
@@ -39,6 +43,8 @@ body{
   vertical-align: middle;
   white-space: nowrap;
   animation: row 8s infinite linear;
+  box-sizing: border-box;
+
 }
 @keyframes row {
       0% {right: 0;}
@@ -48,11 +54,12 @@ body{
   width: 100vw;
   box-sizing: border-box;
   overflow: hidden;
-  height: 900px;
+  height: 850px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   border-bottom: 1px solid black;
+  box-sizing: border-box;
 
 }
 .pic_cover{
@@ -63,11 +70,24 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
+
 }
 .text_cover{
   width: 50vw;
   height: 900px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-content:space-between;
+
 }
+// .text_cover.link_box {
+//   align-items:flex-end;
+//   box-sizing: border-box;
+//   vertical-align:bottom;
+//   justify-content: flex-end;
+// }
 .h_1 {
   font-family: 'Damn',serif;
   font-size: 10em;
@@ -76,6 +96,8 @@ body{
   line-height: 100px;
   margin-top: 50px;
   margin-left: 70px;
+  box-sizing: border-box;
+
 }
 .promo_cover_descr{
   width: 70%;
@@ -86,24 +108,49 @@ body{
   line-height: 28px;
   margin-top: 20px;
   margin-left: 70px;
+  box-sizing: border-box;
+
 }
 .link_box{
   width: 100%;
-  height: 50%;
-  margin-top: 100px;
+  height: 360px;
+  margin-top: 83px;
   border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-self: flex-end;
+  box-sizing: border-box;
+
+
+
 }
-.link_box .links{
-  height: calc(50% / 4);
-  width: 100%;
-  border-radius: 100%;
-}
+// .link_box .links{
+//   height: calc(50% / 4);
+//   width: 100%;
+//   border-radius: 100%;
+// }
 a{
+  height: 90px;
   font-family: 'Gilroy',serif;
   font-size: 36px;
   font-weight: 600;
   color: black;
   line-height: 100px;
-  margin-top: 50px;
-  margin-left: 70px;
+  text-align: center;
+  // justify-content: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-image: url("/assets/border.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: .4s;
+
+}
+a:hover {
+  background-image: url("/assets/border_h.svg");
+  background-color: white;
+  transition: .2s;
+  color: white;
 }
