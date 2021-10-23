@@ -1,7 +1,12 @@
+<div class="top_line rose">
+  <div class="top_line_row">
+    <% 16.times do %> <%= render 'top_line_text' %><% end %>
+  </div>
+</div>
 <div class="main_box">
   <h2>Новый магазин</h2>
 
   <%= render 'form', shop: @shop %>
 
-  <%= link_to 'Back', shops_path, class: 'back_link'%>
+  <%= link_to 'назад', main_index_path, class: 'back_link'%>
 </div>
