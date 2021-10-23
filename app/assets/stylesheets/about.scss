@@ -261,11 +261,13 @@ body{
   margin-top: 76px;
 }
 .fifth_block__pic {
-  background-image: url(method.svg);
+  background-image: url(method.png);
   margin-left: 15.97px;
   width: 1401px;
   height: 520px;
   margin-top: 36px;
+  background-position: center;
+  background-size: contain;
 }
 .sixth_block {
   width: 100%;
