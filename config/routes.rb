@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   get 'events/index'
 
   resources :events
-  root 'main#index'
+  root 'promo#index'
 end
