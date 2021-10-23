@@ -10,36 +10,42 @@
       </ul>
     </div>
   <% end %>
+  <div class="section_shop">
+    <div class="fields">
+      <div class="field">
+        <%= form.text_field :name, placeholder: "название", class: "hui" %>
+      </div>
 
-  <div class="field">
-    <%= form.text_field :name, placeholder: "название", class: "hui" %>
+      <div class="field">
+        <%= form.text_field :tag, placeholder: "теги", class: "hui" %>
+      </div>
+
+      <div class="field">
+        <%= form.text_field :place, placeholder: "место", class: "hui"  %>
+      </div>
+
+      <div class="field">
+        <%= form.text_field :time, placeholder: "время", class: "hui"  %>
+      </div>
+
+      <div class="field">
+        <%= form.text_field :underground, placeholder: "станция метро", class: "hui"  %>
+      </div>
+
+      <div class="field">
+        <%= form.text_field :cost, placeholder: "ценовая категория", class: "hui" %>
+      </div>
+
+      <div class="field">
+        <%= form.text_area :content, placeholder: "контент", class: "hui hui_content"  %>
+      </div>
+
+    </div>
+
+
+    <div class="actions">
+      <%= form.submit class: "form_create-shop", value: "создать магазин" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.text_field :tag, placeholder: "теги", class: "hui" %>
-  </div>
-
-  <div class="field">
-    <%= form.text_field :place, placeholder: "место", class: "hui"  %>
-  </div>
-
-  <div class="field">
-    <%= form.text_field :time, placeholder: "время", class: "hui"  %>
-  </div>
-
-  <div class="field">
-    <%= form.text_field :underground, placeholder: "станция метро", class: "hui"  %>
-  </div>
-
-  <div class="field">
-    <%= form.text_field :cost, placeholder: "ценовая категория", class: "hui" %>
-  </div>
-
-  <div class="field">
-    <%= form.text_area :content, placeholder: "контент", class: "hui"  %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
 <% end %>
