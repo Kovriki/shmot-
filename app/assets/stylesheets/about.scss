@@ -49,3 +49,22 @@ body{
       0% {right: 0;}
       100% {right: 1400px;}
     }
+
+.first_block {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 900px;
+}
+.first_section__title {
+  width: 173px;
+  font-family: 'Damn',serif;
+  font-size: 96px;
+  font-weight: 500;
+  color: black;
+  line-height: 77.4%;
+  margin-top: 69px;
+  margin-left: 70px;
+  box-sizing: border-box;
+}
