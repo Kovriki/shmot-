@@ -53,18 +53,241 @@ body{
 .first_block {
     width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     height: 900px;
 }
+.first_section {
+  width: 487px;
+}
 .first_section__title {
-  width: 173px;
+  width: 400px;
   font-family: 'Damn',serif;
   font-size: 96px;
   font-weight: 500;
   color: black;
   line-height: 77.4%;
   margin-top: 69px;
-  margin-left: 70px;
+  margin-left: 25px;
   box-sizing: border-box;
+}
+.first_section__subtitle {
+  width: 462px;
+  font-family: 'Gilroy-Regular',serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: black;
+  line-height: 95%;
+  margin-top: 40px;
+  margin-left: 25px;
+  box-sizing: border-box;
+}
+.first_section__learn-more {
+  background-image: url(learn.png);
+  width: 100%;
+  height: 91px;
+  background-size: contain;
+  background-position: center;
+  box-sizing: border-box;
+}
+.first_section__learn-more:hover {
+  background-image: url(learn_hover.png);
+  height: 89px;
+  width: 99.6%;
+}
+.second_section {
+  background-image: url(cover.jpg);
+  width: 100%;
+  height: 100%;
+}
+.first_block__line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+.second_block {
+  width: 100%;
+}
+.second_block__title {
+  width: 300px;
+  font-family: 'Damn',serif;
+  font-size: 102px;
+  font-weight: 500;
+  color: black;
+  line-height: 77.4%;
+  margin-top: 82px;
+  margin-left: 25px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+.second_block__b {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+.second_block__pic1 {
+  background-image: url(image_40.jpg);
+  width: 211px;
+  height: 263px;
+}
+.second_block__text {
+  width: 464px;
+  font-family: 'Gilroy-Regular',serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  margin-left: 250px;
+  box-sizing: border-box;
+}
+.second_block__pic2 {
+  background-image: url(image_39.jpg);
+  width: 278px;
+  height: 392px;
+  margin-right: 200px;
+}
+.second_block__pic3 {
+  background-image: url(image_37.jpg);
+  width: 349px;
+  height: 423px;
+  margin-left: 115px;
+}
+.second_block__pic4 {
+  background-image: url(image_38.jpg);
+  width: 210px;
+  height: 315px;
+  margin-left: 254px;
+}
+.second_block__pic5 {
+  background-image: url(image_42.jpg);
+  width: 176px;
+  height: 263px;
+  margin-left: 463px;
+}
+.second_block__pic6 {
+  background-image: url(image_41.jpg);
+  width: 246px;
+  height: 371px;
+  margin-left: 505px;
+}
+.second_block__pic6 {
+  background-image: url(image_41.jpg);
+  width: 246px;
+  height: 371px;
+  margin-left: 505px;
+  margin-top: -109px;
+}
+.second_block__pic7 {
+  background-image: url(image_43.jpg);
+  width: 181px;
+  height: 226px;
+}
+.second_block__pic8 {
+  background-image: url(image_45.jpg);
+  width: 202px;
+  height: 253px;
+  margin-left: 544px;
+}
+.third_block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.third_block__text {
+  width: 464px;
+  font-family: 'Gilroy-Regular',serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  margin-left: 25px;
+  box-sizing: border-box;
+}
+.third_block__text:nth-of-type(1) {
+  margin-top: 50px;
+}
+.third_block__right {
+  background-image: url(pie.svg);
+  width: 829px;
+  height: 702px;
+  margin-left: 173px;
+}
+.fourth_block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.fourth_block__left {
+  width: 488px;
+}
+.fourth_block__text-big {
+  width: 464px;
+  font-family: 'Gilroy-Regular',serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: black;
+  margin-left: 25px;
+  box-sizing: border-box;
+  margin-top: 43px;
+}
+.fourth_block__text {
+  width: 464px;
+  font-family: 'Gilroy-Regular',serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  margin-left: 25px;
+  margin-top: 18px;
+  box-sizing: border-box;
+}
+.fourth_block__right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 290px;
+}
+.fourth_block__pic1 {
+  background-image: url(mari.png);
+  width: 464px;
+  height: 695px;
+}
+.fourth_block__pic2 {
+  background-image: url(dari.png);
+  width: 464px;
+  height: 695px;
+}
+.fifth_block {
+  width: 100%;
+  margin-top: 76px;
+}
+.fifth_block__pic {
+  background-image: url(method.svg);
+  margin-left: 15.97px;
+  width: 1401px;
+  height: 520px;
+  margin-top: 36px;
+}
+.sixth_block {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.sixth_block__functional {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 0;
+}
+.sixth_block__text {
+  background-image: url(functional.svg);
+  margin-left: 25px;
+  width: 746px;
+  height: 608px;
+  margin-top: 77px;
+}
+.sixth_block__mocup {
+  background-image: url(iphone.png);
+  margin-left: 181px;
+  width: 463px;
+  height: 930px;
 }
