@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
+  resources :posts
+  get 'main/index'
+  resources :shops
+  get 'shops/index'
+
   get 'profile/index'
   get 'about/index'
   get 'promo/index'
-  resources :events
   get 'events/index'
-  root 'promo#index'
+
+  resources :events
+  root 'main#index'
 end

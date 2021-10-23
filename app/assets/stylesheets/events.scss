@@ -1,3 +1,46 @@
 // Place all the styles related to the Events controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.top_line {
+  width: 100vw;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  box-sizing: border-box;
+    &.blue{
+      background-color: #000AFF;
+      color: white;
+    }
+    &.rose{
+      background-color: #F19FF9;
+      color: black;
+    }
+}
+.top_line_text{
+  font-family: 'Damn',serif;
+  font-size: 3em;
+  display: flex;
+  flex-wrap: nowrap;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-right: 30px;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+.top_line_row{
+  display: flex;
+  position: relative;
+  flex-wrap: nowrap;
+  vertical-align: middle;
+  white-space: nowrap;
+  animation: row 8s infinite linear;
+  box-sizing: border-box;
+
+}
+@keyframes row {
+      0% {right: 0;}
+      100% {right: 1400px;}
+    }

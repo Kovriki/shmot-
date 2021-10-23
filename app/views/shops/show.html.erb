@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @shop.name %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @shop.tag %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @shop.place %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @shop.time %>
+</p>
+
+<p>
+  <strong>Underground:</strong>
+  <%= @shop.underground %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @shop.cost %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @shop.content %>
+</p>
+
+<%= link_to 'Edit', edit_shop_path(@shop) %> |
+<%= link_to 'Back', shops_path %>
