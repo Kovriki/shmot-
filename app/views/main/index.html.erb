@@ -1,6 +1,17 @@
-<h1>Main#index</h1>
-<p>Find me in app/views/main/index.html.erb</p>
-<%# <%= link_to %> %>
-<%= link_to "Events", new_event_path %>
-<%= link_to "Shops", new_shop_path %>
-<%= link_to "Posts", new_post_path %>
+
+
+<div class="top_line rose">
+  <div class="top_line_row">
+    <% 16.times do %> <%= render 'top_line_text' %><% end %>
+  </div>
+</div>
+
+<div class="main_box">
+    <h2> Создание</h2>
+    <div class="g_box">
+      <%= link_to "Мероприятие", new_event_path, class: 'main_links' %>
+      <%= link_to "Пост", new_post_path , class: 'main_links'%>
+      <%= link_to "Магазин", new_shop_path, class: 'main_links' %>
+    </div>
+    <%= link_to "назад", promo_index_path , class: 'back_link'%>
+</div>
