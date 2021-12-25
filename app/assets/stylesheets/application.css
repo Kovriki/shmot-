@@ -1,154 +1,33 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
- @font-face {
-   font-family: 'Damn';
-   src: url('DAMN.ttf') format('truetype');
-   font-weight: normal;
-   font-style: normal;
-}
-
-/* DAMN разработан Дерьей Фисько в Школе дизайна НИУ ВШЭ  */
-
-/* @font-face {
-  font-family: 'Gilroy';
-  src: url('Gilroy-Regular.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Gilroy';
-  src: url('Gilroy-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-} */
-/* @font-face {
-  font-family: 'Gilroy';
-  src: url('Gilroy-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-} */
-
 
 @font-face {
-    font-family: 'Gilroy';
-    src: url('Gilroy-Regular.eot');
-    src: local('Gilroy Regular'), local('Gilroy-Regular'),
-        url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Gilroy-Regular.woff') format('woff'),
-        url('Gilroy-Regular.ttf') format('truetype');
+    font-family: 'Kharkiv-Tone';
+    src: url('Kharkiv-Tone.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Gilroy';
-    src: url('Gilroy-SemiBold.eot');
-    src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
-        url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('Gilroy-SemiBold.woff') format('woff'),
-        url('Gilroy-SemiBold.ttf') format('truetype');
-    font-weight: 600;
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Gilroy';
-    src: url('Gilroy-Bold.eot');
-    src: local('Gilroy Bold'), local('Gilroy-Bold'),
-        url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Gilroy-Bold.woff') format('woff'),
-        url('Gilroy-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
 }
-
-footer{
-  width: 100vw;
-  height: 500px;
-  background-color: black;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  padding-top: 70px;
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
-footer h2{
-  width: calc((100vw - 80px)/3);
-  color: white;
-  margin: 0;
-  /* margin-top: 70px; */
-  margin-left: 25px;
-}
-footer p {
-  width: calc((100vw - 80px)/3);
-  margin-left: 25px;
-  color: white;
-  font-family: 'Gilroy',serif;
-  font-size: 32px;
-  font-weight: 500;
-  line-height: normal;r
-}
-footer input{
- width:436px;
- height: 55px;
- border-radius: 0;
- border: 0;
- font-size: 21px;
- font-weight: 400;
- font-family: 'Gilroy',serif;
- margin-left: 25px;
- padding-left: 20px;
-}
-button {
-  width: 225px;
-  height: 55px;
-  border: 1px solid white;
-  background-color: black;
-  font-size: 21px;
-  font-weight: 400;
-  font-family: 'Gilroy',serif;
-  margin-left: 25px;
-
-  color: white;
-}
-.info_block{
-  margin-left: 70px;
-}
-.inst_logo {
-  width: 32px;
-  height: 32px;
-  background-image: url("inst_logo.svg");
-  margin-right: 20px;
-}
-.inst_box{
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-}
-footer a {
-  color: white;
-  font-size: 32px;
-}
-.logo_w {
-  width: 160px;
-  height: 100px;
-  background-image: url("logo_w.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 70px;
-  margin-left: 400px;
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
 }
 
 
@@ -161,18 +40,10 @@ footer a {
   flex-direction: row;
   position: relative;
   box-sizing: border-box;
-    &.blue{
-      background-color: #000AFF;
-      color: white;
-    }
-    &.rose{
-      background-color: #F19FF9;
-      color: black;
-    }
+  background-color: #FFFFFF;
 }
 .top_line_text{
-  font-family: 'Damn',serif;
-  font-size: 3em;
+  font-size: 2em;
   display: flex;
   flex-wrap: nowrap;
   vertical-align: middle;
@@ -180,6 +51,12 @@ footer a {
   margin-right: 30px;
   align-items: center;
   box-sizing: border-box;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59px;
+  color: #000000;
 
 }
 .top_line_row{
@@ -195,4 +72,34 @@ footer a {
 @keyframes row {
       0% {right: 0;}
       100% {right: 1400px;}
+    }
+
+    body{
+      margin: 0;
+    }
+
+    .wrapper {
+      background: transparent;
+      position: relative;
+      width: 100%;
+    }
+    .ratio {
+      position: relative;
+      padding-bottom: 443,89%;
+      background: transparent;
+    }
+    .content {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 0;
+      background: transparent;
+    }
+
+    .header {
+      background: #2B2B2B;
+      color: #fff;
+      width: 100%;
     }
